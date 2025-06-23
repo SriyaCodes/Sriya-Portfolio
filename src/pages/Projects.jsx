@@ -21,7 +21,7 @@ const projects = [
     description:
       "A responsive portfolio site built using React and Bootstrap, showcasing skills, projects, and a fully functional contact form.",
     imageUrl: PortfolioImg,
-    link: "#",
+    link: "https://github.com/SriyaCodes/Sriya-Portfolio.git",
   },
   {
     id: 3,
