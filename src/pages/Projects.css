@@ -1,0 +1,140 @@
+.projects-container {
+  padding-top: 100px;
+  padding-bottom: 0 !important;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+
+.projects-title {
+  margin-top: 100px; 
+  margin-bottom: 1.5rem;
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: #1b264f;
+}
+
+/* Grid Row Layout */
+.project-row {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  gap: 3.5rem 5rem; 
+  padding: 0;
+  margin: 0 auto;
+}
+
+.project-col {
+  flex: 1 1 120px; 
+  max-width: 260px; 
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 0 !important;
+}
+
+.project-card {
+  border: none !important;
+  border-radius: 30px;
+  background-color: transparent !important;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  backdrop-filter: blur(5px);
+  padding: 1rem;
+  min-height: 420px;
+  height: 100%;
+  color: #ffffff;
+}
+
+.project-card:hover {
+  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  transform: translateY(-5px);
+}
+
+
+.project-card .card-img-top {
+  padding: 20px;
+  border-radius: 30px;
+  height: 180px;
+  object-fit: cover;
+  background: transparent !important;
+}
+
+.project-card .card-body {
+  padding: 1.5rem;
+  background: transparent !important;
+}
+
+.project-card .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #1a1a73;
+}
+
+.project-card .card-text {
+  margin-bottom: 10px;
+  text-align: justify;
+  color: #2d3861;
+}
+
+.project-card .btn {
+  margin-top: 10px;
+  background-color: #370075;
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 0.6rem 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.project-card .btn:hover {
+  background-color: #4a0092;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 767px) {
+  .projects-container {
+    padding-top: 80px;
+  }
+
+  .projects-title {
+    font-size: 2rem;
+    margin-top: 80px; 
+  }
+
+  .project-card {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+  }
+
+  .project-card .card-img-top {
+    height: 160px;
+    padding: 15px;
+  }
+
+  .project-card .card-body {
+    padding: 1rem;
+  }
+
+  .project-card .card-title {
+    font-size: 1.3rem;
+  }
+}
+
+.card {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+.card-body {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+.card-img-top {
+  background: transparent !important;
+}
