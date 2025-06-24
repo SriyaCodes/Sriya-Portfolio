@@ -4,8 +4,8 @@ import "./Projects.css";
 
 import PortfolioImg from "../assets/portfolio.png";
 import MockInterviewImg from "../assets/mockinterview.png";
-import JobSearchImg from "../assets/JobSearch.png";
-import WeatherImg from "../assets/Weather.png";
+import YtDlimg from "../assets/ytdl.png";
+import SnakeGameImg from "../assets/snakegame.png";
 const projects = [
   {
     id: 1,
@@ -25,19 +25,19 @@ const projects = [
   },
   {
     id: 3,
-    title: "Jobby – Your Career Companion",
+    title: "YouTube Video Downloader",
     description:
-      "Jobby is a responsive job search platform that allows users to explore job opportunities from top companies.It features filter-based searching, company ratings and job descriptions",
-    imageUrl: JobSearchImg,
+      "Download YouTube videos in multiple formats with a simple interface. Features fast downloads and clean design.",
+    imageUrl: YtDlimg,
     link: "#",
   },
   {
     id: 4,
-    title: "Find Weather App",
+    title: "Snake Game",
     description:
-      "Find Weather App is a responsive web application that provides real-time weather updates for any city.It displays temperature, weather description, and icon",
-    imageUrl: WeatherImg,
-    link: "https://github.com/SriyaCodes/WeatherFInd.git",
+      "A classic Snake game built with vanilla JS featuring smooth controls, score tracking, and responsive design for all devices.",
+    imageUrl: SnakeGameImg,
+    link: "https://github.com/SriyaCodes/Snake_Game-.git",
   },
 ];
 
