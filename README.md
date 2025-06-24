@@ -20,6 +20,8 @@ FEATURES:
 
 TECH STACK: 
 
+📱 NodeJS
+
 ⚛️ React (JSX)
 
 🎨 CSS Modules
