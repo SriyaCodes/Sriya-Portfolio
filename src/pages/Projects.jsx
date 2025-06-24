@@ -4,8 +4,8 @@ import "./Projects.css";
 
 import PortfolioImg from "../assets/portfolio.png";
 import MockInterviewImg from "../assets/mockinterview.png";
-import YtDlimg from "../assets/ytdl.png";
-import SnakeGameImg from "../assets/snakegame.png";
+import WeatherImg from "../assets/weather.png";
+import JobSearchImg from "../assets/jobsearch.png";
 const projects = [
   {
     id: 1,
@@ -28,7 +28,7 @@ const projects = [
     title: "YouTube Video Downloader",
     description:
       "Download YouTube videos in multiple formats with a simple interface. Features fast downloads and clean design.",
-    imageUrl: YtDlimg,
+    imageUrl: WeatherImg,
     link: "#",
   },
   {
@@ -36,7 +36,7 @@ const projects = [
     title: "Snake Game",
     description:
       "A classic Snake game built with vanilla JS featuring smooth controls, score tracking, and responsive design for all devices.",
-    imageUrl: SnakeGameImg,
+    imageUrl: JobSearchImg,
     link: "https://github.com/SriyaCodes/Snake_Game-.git",
   },
 ];
