@@ -27,7 +27,7 @@ const projects = [
     id: 3,
     title: "Jobby – Your Career Companion",
     description:
-      "Jobby is a responsive job search platform that allows users to explore job opportunities from top companies.It features filter-based job search, company ratings and job descriptions",
+      "Jobby is a responsive job search platform that allows users to explore job opportunities.It features filter-based searching, company ratings and job descriptions",
     imageUrl: JobSearchImg,
     link: "#",
   },
