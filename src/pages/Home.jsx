@@ -40,7 +40,6 @@ function Home() {
               <div className="social-links">
                 <a href="https://github.com/SriyaCodes" target="_blank" rel="noreferrer" aria-label="GitHub"><FiGithub /></a>
                 <a href="https://www.linkedin.com/in/sriya-muppidi" target="_blank" rel="noreferrer" aria-label="LinkedIn"><FiLinkedin /></a>
-                 <a href="https://www.instagram.com/_sriyayaya/" target="_blank" rel="noreferrer" aria-label="Instagram"><FiInstagram /></a>
               </div>
             </div>
           </Col>
