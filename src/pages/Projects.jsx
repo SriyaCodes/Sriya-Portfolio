@@ -5,7 +5,7 @@ import "./Projects.css";
 import PortfolioImg from "../assets/portfolio.png";
 import MockInterviewImg from "../assets/mockinterview.png";
 import YtDlimg from "../assets/ytdl.png";
-import SnakeGameImg from "../assets/snakegame.png";
+import WeatherImg from "../assets/Weather.png";
 const projects = [
   {
     id: 1,
@@ -36,7 +36,7 @@ const projects = [
     title: "Snake Game",
     description:
       "A classic Snake game built with vanilla JS featuring smooth controls, score tracking, and responsive design for all devices.",
-    imageUrl: SnakeGameImg,
+    imageUrl: WeatherImg,
     link: "https://github.com/SriyaCodes/Snake_Game-.git",
   },
 ];
