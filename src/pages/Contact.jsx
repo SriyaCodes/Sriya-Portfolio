@@ -10,13 +10,31 @@ export default function Contact() {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData(prev => ({ ...prev, [name]: value }));
+    setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    alert(`Thank you, ${formData.name}! Your message has been received.`);
-    setFormData({ name: '', email: '', message: '' });
+
+    try {
+      const response = await fetch('https://formsubmit.co/ajax/babysriya1193@gmail.com', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        alert(`Thank you, ${formData.name}! Your message has been received.`);
+        setFormData({ name: '', email: '', message: '' });
+      } else {
+        alert('Oops! Something went wrong. Please try again.');
+      }
+    } catch (error) {
+      alert('Failed to send message. Please check your internet connection.');
+    }
   };
 
   return (
@@ -34,6 +52,9 @@ export default function Contact() {
         <div className="contact-form-wrapper">
           <h3 className="form-title">Send a Message</h3>
           <form className="contact-form" onSubmit={handleSubmit} noValidate>
+            {/* Optional: hidden anti-spam field */}
+            <input type="text" name="_formsubmit_id" style={{ display: 'none' }} />
+
             <div className="input-group">
               <input
                 type="text"
