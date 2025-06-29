@@ -1,11 +1,12 @@
-import React from "react";
+
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import "./Projects.css";
 
 import PortfolioImg from "../assets/portfolio.png";
 import MockInterviewImg from "../assets/mockinterview.png";
-import WeatherImg from "../assets/weather.png";
-import JobSearchImg from "../assets/jobsearch.png";
+import JobSearchImg from "../assets/JobSearch.png";
+import WeatherImg from "../assets/Weather.png";
+import QuizImg from "../assets/QuizVerse.png";
 const projects = [
   {
     id: 1,
@@ -27,18 +28,27 @@ const projects = [
     id: 3,
     title: "Jobby – Your Career Companion",
     description:
-      "Jobby is a responsive job search platform that allows users to explore job opportunities.It features filter-based searching, company ratings and job descriptions",
+      "Jobby is a responsive job search platform that allows users to explore job opportunities from top companies.It features filter-based searching, company ratings and job descriptions",
     imageUrl: JobSearchImg,
-    link: "https://github.com/SriyaCodes/Job-Search-App.git",
+    link: "#",
   },
   {
     id: 4,
+    title: "QuizVerse",
+    description:
+      "QuizVerse is a customizable quiz application built with React.It allows users to play quizzes based on categories, difficulty, and question count.",
+    imageUrl: QuizImg,
+    link: "https://github.com/SriyaCodes/QuizVerse.git",
+  },
+   {
+    id: 4,
     title: "Find Weather App",
     description:
-      "Find Weather App is a responsive web application that provides real-time weather updates for any city.",
+      "Find Weather App is a responsive web application that provides real-time weather updates for any city.It displays temperature, weather description, and icon",
     imageUrl: WeatherImg,
-    link: "https://github.com/SriyaCodes/WeatherFInd.git",
+    link: "https://github.com/SriyaCodes/WeatherFInd.git"
   },
+  
 ];
 
 const Projects = () => {
