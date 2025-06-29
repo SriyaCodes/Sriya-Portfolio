@@ -30,7 +30,7 @@ const projects = [
     description:
       "Jobby is a responsive job search platform that allows users to explore job opportunities from top companies.It features filter-based searching, company ratings and job descriptions",
     imageUrl: JobSearchImg,
-    link: "#",
+    link: "https://github.com/SriyaCodes/Job-Search-App.git",
   },
   {
     id: 4,
@@ -41,13 +41,13 @@ const projects = [
     link: "https://github.com/SriyaCodes/QuizVerse.git",
   },
    {
-    id: 4,
+    id: 5,
     title: "Find Weather App",
     description:
       "Find Weather App is a responsive web application that provides real-time weather updates for any city.It displays temperature, weather description, and icon",
     imageUrl: WeatherImg,
     link: "https://github.com/SriyaCodes/WeatherFInd.git"
-  },
+  }
   
 ];
 
