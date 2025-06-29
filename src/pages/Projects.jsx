@@ -4,8 +4,8 @@ import "./Projects.css";
 
 import PortfolioImg from "../assets/portfolio.png";
 import MockInterviewImg from "../assets/mockinterview.png";
-import JobSearchImg from "../assets/JobSearch.png";
-import WeatherImg from "../assets/Weather.png";
+import JobSearchImg from "../assets/jobsearch.png";
+import WeatherImg from "../assets/weather.png";
 import QuizImg from "../assets/QuizVerse.png";
 const projects = [
   {
