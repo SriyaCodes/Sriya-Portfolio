@@ -30,7 +30,7 @@ const projects = [
     description:
       "Jobby is a responsive job search platform that allows users to explore job opportunities from top companies.It features filter-based searching, company ratings and job descriptions",
     imageUrl: JobSearchImg,
-    link: "https://github.com/SriyaCodes/Job-Search-App.git",
+    link: "https://github.com/SriyaCodes/Job-Portal-Full-Stack.git",
   },
   {
     id: 4,
