@@ -26,11 +26,11 @@ const projects = [
   },
   {
     id: 3,
-    title: "Jobby – Your Career Companion",
+    title: "Talent Summit – Empowering Careers",
     description:
-      "Jobby is a responsive job search platform that allows users to explore job opportunities from top companies.It features filter-based searching, company ratings and job descriptions",
+  "Talent Summit is a modern job portal that connects employers and job seekers. It offers role-based access, advanced job filtering, resume uploads, and application tracking, all within a responsive and user-friendly interface.",
     imageUrl: JobSearchImg,
-    link: "https://github.com/SriyaCodes/Job-Portal-Full-Stack.git",
+    link: "https://github.com/SriyaCodes/TalentSummit.git",
   },
   {
     id: 4,
